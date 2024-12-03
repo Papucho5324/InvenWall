@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">InventarioWall</string>
+    <string-array name="estados_instalacion">
+        <item>Pendiente</item>
+        <item>En Proceso</item>
+        <item>Completado</item>
+        <item>Cancelado</item>
+    </string-array>
+</resources>

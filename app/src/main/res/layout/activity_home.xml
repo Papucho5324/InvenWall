@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:elevation="5dp"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bienvenido, "
+                android:textSize="30sp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:textColor="@color/material_dynamic_tertiary10"
+                android:text="nombre"
+                android:textSize="30sp"/>
+            <ImageView
+                android:id="@+id/logout"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="Cerrar sesion"
+                android:src="@drawable/ic_logout"
+                android:layout_marginStart="60dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menu"
+                android:textSize="40sp"
+                android:textColor="@color/black"/>
+            <ImageView
+                android:id="@+id/reporte"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/reporte"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Generar reporte instalacion"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+            <ImageView
+                android:id="@+id/perfil"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/profile"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Revisar perfil"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+            <ImageView
+                android:id="@+id/inventario"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/inventario"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Generar inventario"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

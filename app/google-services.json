@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1010262308063",
+    "project_id": "invetorywall",
+    "storage_bucket": "invetorywall.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010262308063:android:cd2a91bbd953bb73d2256a",
+        "android_client_info": {
+          "package_name": "com.example.inventariowall"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu022yNxpGBKSlSPEKoW8eaNT9-NULZDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
